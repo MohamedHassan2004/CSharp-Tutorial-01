@@ -14,7 +14,11 @@ namespace Common
             id = _id;
         }
         public static GCard SingleToneObj { get; } = new GCard(10001); // single tone object
-         
+
+        public void Print()
+        {
+            Console.WriteLine("Card ID: " + id);
+        }
 
     }
 
