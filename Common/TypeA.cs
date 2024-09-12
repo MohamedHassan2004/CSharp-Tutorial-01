@@ -7,32 +7,21 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    public class TypeA
+    class TypeA
     {
-        int id;
-        string name;
-
-        public TypeA(int _x , string _y)
+        public int A { get; set; }
+        public TypeA(int _A = 0) { A = _A; }
+        public void StaticallyBindedShow()
         {
-            id = _x;
-            name = _y;
+            Console.WriteLine("I am Base");
         }
-        public TypeA(int _x): this(_x, "ss")
-        { 
-        }
-        public TypeA()
+    }
+    class TypeB : TypeA
+    {
+        public int B { get; set; }
+        public TypeB(int _A = 0, int _B = 0) : base(_A)
         {
-            id = 10;
-            name = "Mohamed";
+            B = _B;
         }
-
-        public void Print()
-        {
-            Console.WriteLine($"id : {this.id}\nname : {this.name}");
-        }
-
-
-        public int Id { get => id; set => id = value; }
-        public string Name { get => name; set => name = value; }
     }
 }
