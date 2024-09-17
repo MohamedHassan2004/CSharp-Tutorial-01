@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    class TypeA
+    public class TypeA
     {
+        public int d => 7; // read-only property
         public int A { get; set; }
         public TypeA(int _A = 0) { A = _A; }
         public void StaticallyBindedShow()
@@ -16,7 +17,7 @@ namespace Common
             Console.WriteLine("I am Base");
         }
     }
-    class TypeB : TypeA
+    public class TypeB : TypeA
     {
         public int B { get; set; }
         public TypeB(int _A = 0, int _B = 0) : base(_A)

@@ -10,7 +10,7 @@ namespace Common
     public class EvenSerie : ISeries
     {
         int current;
-        public int Current {get{return current;}}
+        public int Current {get=>current;}
 
         public void GetNext()
         {

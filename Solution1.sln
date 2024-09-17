@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial", "..\Tutorial\Tut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0875C240-632E-4568-AB58-39B3439E4621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProblemSolving", "ProblemSolving\ProblemSolving.csproj", "{9DAB9C5B-7E5E-4710-9A40-76C1CB44003A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProblemSolving", "ProblemSolving\ProblemSolving.csproj", "{9DAB9C5B-7E5E-4710-9A40-76C1CB44003A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Events", "Events\Events.csproj", "{FD04E14D-C9AD-4D52-9EC3-9345DD9774D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9DAB9C5B-7E5E-4710-9A40-76C1CB44003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DAB9C5B-7E5E-4710-9A40-76C1CB44003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DAB9C5B-7E5E-4710-9A40-76C1CB44003A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD04E14D-C9AD-4D52-9EC3-9345DD9774D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD04E14D-C9AD-4D52-9EC3-9345DD9774D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD04E14D-C9AD-4D52-9EC3-9345DD9774D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD04E14D-C9AD-4D52-9EC3-9345DD9774D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
